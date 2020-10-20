@@ -1,10 +1,14 @@
-def direction():
-  direction = ["Move Forward", "Move Backward", "Turn Left", "Turn Right"]
-  print(direction)
-direction()
+def directions():
+  directions = ["Move Forward",
+                "Move Backward",
+                "Turn Left",
+                "Turn Right"]
+  
+  return directions()
 
 def run():
-  print(direction())
+  print(directions())
+
 run()
 
 
