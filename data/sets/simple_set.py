@@ -3,9 +3,9 @@ def observed():
   return observations
 
 def run():
-  observations = observed()
-  print(observations)
-print (run())
+  print(observed())
+
+run()
   
 
 
